@@ -44,7 +44,13 @@ def run_pipeline():
         except Exception as e:
             logger.error(f"Could not load existing dataset: {e}")
             
+    completed_repos = set(r.get('repo_name') for r in master_data if r.get('repo_name'))
+    
     for repo in repos:
+        if repo in completed_repos:
+            logger.info(f"Skipping {repo} - already found in dataset.")
+            continue
+            
         try:
             logger.info(f"--- Starting processing for {repo} ---")
             raw_repo_data = []
