@@ -54,6 +54,11 @@ class DatasetBuilder:
         self._save_jsonl(df_train.to_dict('records'), 'train.jsonl')
         self._save_jsonl(df_val.to_dict('records'), 'validation.jsonl')
         self._save_jsonl(df_test.to_dict('records'), 'test.jsonl')
+        
+        # Save as CSV natively
+        df_train.to_csv(os.path.join(self.output_dir, 'train.csv'), index=False, encoding='utf-8')
+        df_val.to_csv(os.path.join(self.output_dir, 'validation.csv'), index=False, encoding='utf-8')
+        df_test.to_csv(os.path.join(self.output_dir, 'test.csv'), index=False, encoding='utf-8')
 
         self.logger.info(f"Dataset generated: {len(df_train)} train, {len(df_val)} val, {len(df_test)} test")
 

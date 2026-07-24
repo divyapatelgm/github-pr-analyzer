@@ -18,6 +18,7 @@ class ReviewExtractor:
                         "review": {
                             "review_id": str(comment['id']),
                             "reviewer": comment['user']['login'] if comment.get('user') else "",
+                            "is_bot": comment['user'].get('type') == 'Bot' if comment.get('user') else False,
                             "created_at": comment.get('created_at', ''),
                             "updated_at": comment.get('updated_at', ''),
                             "line_number": str(comment.get('line', '')),

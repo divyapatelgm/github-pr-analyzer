@@ -44,7 +44,16 @@ def run_pipeline():
         except Exception as e:
             logger.error(f"Could not load existing dataset: {e}")
             
+    completed_repos = set()
+    if os.path.exists("data/processed/completed_repos.txt"):
+        with open("data/processed/completed_repos.txt", "r") as f:
+            completed_repos = set(f.read().splitlines())
+
     for repo in repos:
+        if repo in completed_repos:
+            logger.info(f"Skipping {repo} - completely finished in a previous run.")
+            continue
+            
         try:
             logger.info(f"--- Starting processing for {repo} ---")
             raw_repo_data = []
@@ -52,7 +61,6 @@ def run_pipeline():
             for pr in prs:
                 try:
                     pr_num = pr['number']
-                    diff = scraper.fetch_pr_diff(repo, pr_num)
                     # We catch exceptions for comments internally or bypass errors here
                     try:
                         comments = scraper.fetch_review_comments(repo, pr_num)
@@ -63,7 +71,7 @@ def run_pipeline():
                     raw_repo_data.append({
                         "repo_name": repo,
                         "pr_number": pr_num,
-                        "diff": diff,
+                        "diff": "",
                         "comments": comments,
                         "pr_url": pr['html_url']
                     })
@@ -79,11 +87,15 @@ def run_pipeline():
             # Add to master
             master_data.extend(filtered)
             
-            # Save checkpoint immediately
-            with open("data/processed/master_dataset_v1.jsonl", "w") as f:
-                for r in master_data:
+            # Save checkpoint immediately (append mode)
+            with open("data/processed/master_dataset_v1.jsonl", "a") as f:
+                for r in filtered:
                     f.write(json.dumps(r) + '\n')
-                    
+            
+            # Log as completed so it can be resumed safely
+            with open("data/processed/completed_repos.txt", "a") as f:
+                f.write(repo + '\n')
+            
             logger.info(f"Checkpoint saved! Accumulated {len(master_data)} clean records so far.")
             
         except Exception as e:
@@ -101,7 +113,7 @@ def run_pipeline():
     analytics.report(master_data)
             
     logger.info("Building dataset splits...")
-    builder = DatasetBuilder("data/training/v1")
+    builder = DatasetBuilder("data/training/v1_strict")
     builder.build(master_data)
     logger.info("Pipeline complete.")
 
