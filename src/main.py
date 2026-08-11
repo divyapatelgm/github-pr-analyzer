@@ -4,11 +4,6 @@ import subprocess
 from src.github_client import client
 from src.repository_scraper import RepositoryScraper
 from src.review_extractor import ReviewExtractor
-from src.quality_filter import QualityFilter
-from src.deduplicator import Deduplicator
-from src.metadata_enricher import MetadataEnricher
-from src.validator import Validator
-from src.dataset_builder import DatasetBuilder
 import yaml
 import logging
 
@@ -25,24 +20,13 @@ def run_pipeline():
     
     scraper = RepositoryScraper(repos, max_prs=config['scraping']['max_prs_per_repo'])
     extractor = ReviewExtractor()
-    enricher = MetadataEnricher(anonymize=config.get('anonymize_reviewers', True))
-    validator = Validator()
-    filterer = QualityFilter(min_length=config['filtering']['min_comment_length'], blocklist=config['filtering']['blocklist'])
-    deduper = Deduplicator()
     
     os.makedirs("data/processed", exist_ok=True)
     master_data = []
     
     processed_file = "data/processed/master_dataset_v1.jsonl"
     if os.path.exists(processed_file):
-        try:
-            with open(processed_file, "r") as f:
-                for line in f:
-                    if line.strip():
-                        master_data.append(json.loads(line))
-            logger.info(f"Loaded existing dataset with {len(master_data)} records. Resuming...")
-        except Exception as e:
-            logger.error(f"Could not load existing dataset: {e}")
+        logger.info(f"Existing dataset found at {processed_file}. New records will be appended.")
             
     completed_repos = set()
     if os.path.exists("data/processed/completed_repos.txt"):
@@ -78,44 +62,27 @@ def run_pipeline():
                 except Exception as e:
                     logger.error(f"Error processing PR {pr['number']} in {repo}: {e}")
             
-            # Process this repo's data
+            # Process this repo's data (pure extraction only)
             extracted = extractor.extract_reviews(raw_repo_data)
-            enriched = enricher.enrich(extracted)
-            validated = validator.validate(enriched)
-            filtered = filterer.filter(validated)
             
             # Add to master
-            master_data.extend(filtered)
+            master_data.extend(extracted)
             
-            # Save checkpoint immediately (append mode)
-            with open("data/processed/master_dataset_v1.jsonl", "a") as f:
-                for r in filtered:
+            # Save checkpoint immediately (append mode) with raw nested schema
+            with open("data/processed/master_dataset_v1.jsonl", "a", encoding="utf-8") as f:
+                for r in extracted:
                     f.write(json.dumps(r) + '\n')
             
             # Log as completed so it can be resumed safely
             with open("data/processed/completed_repos.txt", "a") as f:
                 f.write(repo + '\n')
             
-            logger.info(f"Checkpoint saved! Accumulated {len(master_data)} clean records so far.")
+            logger.info(f"Checkpoint saved! Accumulated {len(master_data)} raw records so far.")
             
         except Exception as e:
             logger.error(f"Failed processing repository {repo}: {e}")
             
-    logger.info("Scraping finished. Running final deduplication across all repos.")
-    master_data = deduper.deduplicate(master_data)
-    
-    with open("data/processed/master_dataset_v1.jsonl", "w") as f:
-        for r in master_data:
-            f.write(json.dumps(r) + '\n')
-            
-    from src.analytics import Analytics
-    analytics = Analytics()
-    analytics.report(master_data)
-            
-    logger.info("Building dataset splits...")
-    builder = DatasetBuilder("data/training/v1_strict")
-    builder.build(master_data)
-    logger.info("Pipeline complete.")
+    logger.info("Scraping finished. To process the dataset, run: python -m src.v2_dataset_builder data/processed/master_dataset_v1.jsonl data/training/v1_strict/train.jsonl data/training/v1_strict/validation.jsonl")
 
 if __name__ == "__main__":
     run_pipeline()
