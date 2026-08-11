@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+models/
+data/
+config/config.yaml
+experiments.jsonl
+evaluation_report.md
+
+final_dataset/
+*.jsonl
+*.csv

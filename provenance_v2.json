@@ -1,0 +1,3001 @@
+{
+  "total_repos": 564,
+  "repo_record_counts": {
+    "microsoft/vscode": 1080,
+    "kubernetes/kubernetes": 2343,
+    "facebook/react": 196,
+    "vuejs/vue": 21,
+    "angular/angular": 183,
+    "django/django": 899,
+    "psf/requests": 87,
+    "pandas-dev/pandas": 245,
+    "numpy/numpy": 399,
+    "scikit-learn/scikit-learn": 911,
+    "keras-team/keras": 1541,
+    "pytorch/pytorch": 164,
+    "huggingface/transformers": 891,
+    "fastapi/fastapi": 128,
+    "rust-lang/rust": 527,
+    "golang/go": 4,
+    "nodejs/node": 272,
+    "denoland/deno": 141,
+    "microsoft/TypeScript": 451,
+    "apple/swift": 294,
+    "flutter/flutter": 136,
+    "electron/electron": 31,
+    "docker/docker-ce": 184,
+    "moby/moby": 439,
+    "ansible/ansible": 284,
+    "home-assistant/core": 1496,
+    "hashicorp/terraform": 627,
+    "elastic/elasticsearch": 32,
+    "apache/spark": 32,
+    "apache/kafka": 186,
+    "spring-projects/spring-boot": 15,
+    "vercel/next.js": 92,
+    "gatsbyjs/gatsby": 4,
+    "tailwindlabs/tailwindcss": 129,
+    "twbs/bootstrap": 6,
+    "ant-design/ant-design": 77,
+    "mui/material-ui": 53,
+    "bitcoin/bitcoin": 168,
+    "ethereum/go-ethereum": 296,
+    "obsproject/obs-studio": 21,
+    "microsoft/PowerToys": 47,
+    "godotengine/godot": 32,
+    "mrdoob/three.js": 29,
+    "socketio/socket.io": 30,
+    "expressjs/express": 8,
+    "nestjs/nest": 2,
+    "strapi/strapi": 70,
+    "redis/redis": 406,
+    "memcached/memcached": 24,
+    "celery/celery": 152,
+    "rq/rq": 65,
+    "ruby/ruby": 16,
+    "rails/rails": 22,
+    "jekyll/jekyll": 46,
+    "discourse/discourse": 16,
+    "gitlabhq/gitlabhq": 4,
+    "php/php-src": 80,
+    "laravel/laravel": 17,
+    "symfony/symfony": 22,
+    "composer/composer": 44,
+    "briannesbitt/Carbon": 16,
+    "vinta/awesome-python": 2,
+    "sindresorhus/awesome": 17,
+    "jwasham/coding-interview-university": 1,
+    "public-apis/public-apis": 10,
+    "EbookFoundation/free-programming-books": 20,
+    "CyC2018/CS-Notes": 2,
+    "TheAlgorithms/Python": 8,
+    "TheAlgorithms/Java": 51,
+    "TheAlgorithms/C-Plus-Plus": 10,
+    "TheAlgorithms/JavaScript": 77,
+    "30-seconds/30-seconds-of-code": 3,
+    "gin-gonic/gin": 37,
+    "gohugoio/hugo": 36,
+    "prometheus/prometheus": 46,
+    "grafana/grafana": 86,
+    "etcd-io/etcd": 28,
+    "gogs/gogs": 71,
+    "syncthing/syncthing": 30,
+    "rclone/rclone": 52,
+    "BurntSushi/ripgrep": 26,
+    "tokio-rs/tokio": 138,
+    "serde-rs/serde": 26,
+    "clap-rs/clap": 68,
+    "tauri-apps/tauri": 65,
+    "alacritty/alacritty": 105,
+    "dandavison/delta": 53,
+    "starship/starship": 45,
+    "zellij-org/zellij": 26,
+    "nushell/nushell": 40,
+    "bevyengine/bevy": 135,
+    "helix-editor/helix": 22,
+    "lapce/lapce": 23,
+    "Neovim/neovim": 11,
+    "vim/vim": 30,
+    "zsh-users/zsh-autosuggestions": 5,
+    "robbyrussell/oh-my-zsh": 12,
+    "nvm-sh/nvm": 60,
+    "pyenv/pyenv": 47,
+    "pypa/pip": 87,
+    "pypa/virtualenv": 4,
+    "pypa/pipenv": 58,
+    "psf/black": 10,
+    "PyCQA/flake8": 9,
+    "PyCQA/pylint": 19,
+    "pytest-dev/pytest": 14,
+    "tox-dev/tox": 22,
+    "pydantic/pydantic": 23,
+    "tiangolo/sqlmodel": 9,
+    "sqlalchemy/sqlalchemy": 173,
+    "encode/starlette": 16,
+    "encode/httpx": 45,
+    "miguelgrinberg/Flask-SocketIO": 5,
+    "celery/kombu": 186,
+    "tornadoweb/tornado": 10,
+    "twisted/twisted": 244,
+    "gevent/gevent": 13,
+    "scrapy/scrapy": 39,
+    "pydata/xarray": 110,
+    "dask/dask": 49,
+    "ray-project/ray": 217,
+    "matplotlib/matplotlib": 32,
+    "mwaskom/seaborn": 19,
+    "plotly/plotly.py": 79,
+    "bokeh/bokeh": 278,
+    "streamlit/streamlit": 71,
+    "gradio-app/gradio": 157,
+    "jupyterlab/jupyterlab": 80,
+    "ipython/ipython": 8,
+    "spyder-ide/spyder": 67,
+    "apache/airflow": 52,
+    "dagster-io/dagster": 149,
+    "prefecthq/prefect": 60,
+    "mlflow/mlflow": 208,
+    "huggingface/datasets": 15,
+    "huggingface/accelerate": 40,
+    "huggingface/peft": 89,
+    "langchain-ai/langchain": 90,
+    "run-llama/llama_index": 7,
+    "milvus-io/milvus": 43,
+    "qdrant/qdrant": 82,
+    "weaviate/weaviate": 131,
+    "chroma-core/chroma": 1113,
+    "facebookresearch/faiss": 4,
+    "openai/gym": 188,
+    "openai/whisper": 1,
+    "ggerganov/llama.cpp": 14,
+    "ggerganov/whisper.cpp": 27,
+    "karpathy/nanoGPT": 1,
+    "karpathy/minGPT": 1,
+    "lucidrains/DALLE2-pytorch": 97,
+    "lucidrains/imagen-pytorch": 8,
+    "CompVis/stable-diffusion": 11,
+    "huggingface/diffusers": 303,
+    "tiangolo/full-stack-fastapi-postgresql": 28,
+    "cookiecutter/cookiecutter": 33,
+    "Audreyfeldroy/cookiecutter-pypackage": 1,
+    "pypa/sampleproject": 96,
+    "encode/django-rest-framework": 213,
+    "graphql-python/graphene": 35,
+    "strawberry-graphql/strawberry": 85,
+    "tiangolo/typer": 9,
+    "Textualize/rich": 22,
+    "Textualize/textual": 6,
+    "getsentry/sentry": 135,
+    "posthog/posthog": 131,
+    "plausible/analytics": 31,
+    "matomo-org/matomo": 34,
+    "nocodb/nocodb": 8,
+    "appsmithorg/appsmith": 71,
+    "tooljet/tooljet": 30,
+    "budibase/budibase": 243,
+    "hoppscotch/hoppscotch": 2733,
+    "postmanlabs/postman-app-support": 16,
+    "Kong/insomnia": 155,
+    "grafana/k6": 38,
+    "locustio/locust": 6,
+    "apache/jmeter": 26,
+    "tensorflow/tensorflow": 22,
+    "pallets/flask": 23,
+    "dbeaver/dbeaver": 445,
+    "sherlock-project/sherlock": 79,
+    "kdn251/interviews": 37,
+    "louislam/uptime-kuma": 651,
+    "RVC-Boss/GPT-SoVITS": 13,
+    "ElemeFE/element": 15,
+    "open-webui/open-webui": 8,
+    "FuelLabs/fuel-core": 2012,
+    "LadybirdBrowser/ladybird": 250,
+    "google/guava": 17,
+    "AUTOMATIC1111/stable-diffusion-webui": 34,
+    "Comfy-Org/ComfyUI": 772,
+    "opencv/opencv": 333,
+    "x1xhlol/system-prompts-and-models-of-ai-tools": 106,
+    "3b1b/manim": 90,
+    "ytdl-org/youtube-dl": 833,
+    "Anduin2017/HowToCook": 16,
+    "roboflow/supervision": 1125,
+    "JuliaLang/julia": 175,
+    "CherryHQ/cherry-studio": 632,
+    "microsoft/ML-For-Beginners": 73,
+    "virattt/ai-hedge-fund": 100,
+    "penpot/penpot": 44,
+    "fffaraz/awesome-cpp": 3,
+    "unionlabs/union": 84,
+    "pixijs/pixijs": 247,
+    "warpdotdev/warp": 653,
+    "mattpocock/skills": 3,
+    "MemPalace/mempalace": 118,
+    "f/prompts.chat": 30,
+    "dkhamsing/open-source-ios-apps": 16,
+    "atom/atom": 253,
+    "prakhar1989/awesome-courses": 7,
+    "iluwatar/java-design-patterns": 148,
+    "typst/typst": 796,
+    "meilisearch/meilisearch": 540,
+    "go-gitea/gitea": 417,
+    "chartjs/Chart.js": 479,
+    "coder/code-server": 77,
+    "youngyangyang04/leetcode-master": 4,
+    "type-challenges/type-challenges": 12,
+    "521xueweihan/HelloGitHub": 1,
+    "codecrafters-io/build-your-own-x": 22,
+    "thedotmack/claude-mem": 178,
+    "kamranahmedse/developer-roadmap": 1,
+    "DefinitelyTyped/DefinitelyTyped": 239,
+    "vitejs/vite": 223,
+    "huginn/huginn": 157,
+    "NousResearch/hermes-agent": 19,
+    "remotion-dev/remotion": 22,
+    "rasbt/LLMs-from-scratch": 60,
+    "ChatGPTNextWeb/NextChat": 10,
+    "spring-projects/spring-framework": 189,
+    "ggml-org/whisper.cpp": 194,
+    "Hack-with-Github/Awesome-Hacking": 26,
+    "apache/echarts": 470,
+    "nlohmann/json": 243,
+    "lodash/lodash": 152,
+    "rust-lang/rustlings": 57,
+    "colbymchenry/codegraph": 3,
+    "Mintplex-Labs/anything-llm": 241,
+    "termux/termux-app": 79,
+    "TanStack/query": 36,
+    "facebookresearch/segment-anything": 1,
+    "Z4nzu/hackingtool": 19,
+    "makeplane/plane": 89,
+    "ggml-org/llama.cpp": 235,
+    "serhii-londar/open-source-mac-os-apps": 52,
+    "headroomlabs-ai/headroom": 6,
+    "twentyhq/twenty": 431,
+    "h5bp/html5-boilerplate": 8,
+    "necolas/normalize.css": 35,
+    "browser-use/browser-use": 36,
+    "lyswhut/lx-music-desktop": 17,
+    "facebook/docusaurus": 75,
+    "algorithm-visualizer/algorithm-visualizer": 1,
+    "trekhleb/javascript-algorithms": 19,
+    "juliangarnier/anime": 44,
+    "karpathy/autoresearch": 16,
+    "netdata/netdata": 249,
+    "mtdvio/every-programmer-should-know": 8,
+    "karpathy/nanochat": 167,
+    "FoundationAgents/OpenManus": 51,
+    "tldraw/tldraw": 259,
+    "adam-p/markdown-here": 1,
+    "supabase/supabase": 125,
+    "sindresorhus/awesome-nodejs": 46,
+    "withastro/astro": 310,
+    "willmcgugan/rich": 52,
+    "rustdesk/rustdesk": 98,
+    "d3/d3": 48,
+    "microsoft/VibeVoice": 6,
+    "twitter/the-algorithm": 52,
+    "react/react": 14,
+    "ventoy/Ventoy": 8,
+    "azl397985856/leetcode": 75,
+    "D4Vinci/Scrapling": 9,
+    "ionic-team/ionic-framework": 728,
+    "microsoft/generative-ai-for-beginners": 2,
+    "sharkdp/bat": 123,
+    "puppeteer/puppeteer": 459,
+    "abi/screenshot-to-code": 22,
+    "deepfakes/faceswap": 171,
+    "x64dbg/x64dbg": 178,
+    "donnemartin/system-design-primer": 54,
+    "VoltAgent/awesome-openclaw-skills": 8,
+    "jlevy/the-art-of-command-line": 104,
+    "microsoft/Web-Dev-For-Beginners": 48,
+    "DovAmir/awesome-design-patterns": 1,
+    "2dust/v2rayN": 108,
+    "yt-dlp/yt-dlp": 714,
+    "papers-we-love/papers-we-love": 19,
+    "DietrichGebert/ponytail": 8,
+    "Homebrew/brew": 416,
+    "zed-industries/zed": 93,
+    "oven-sh/bun": 981,
+    "tiimgreen/github-cheat-sheet": 10,
+    "nextlevelbuilder/ui-ux-pro-max-skill": 2,
+    "google-gemini/gemini-cli": 278,
+    "mem0ai/mem0": 102,
+    "PowerShell/PowerShell": 124,
+    "github/spec-kit": 372,
+    "practical-tutorials/project-based-learning": 5,
+    "coollabsio/coolify": 19,
+    "FlowiseAI/Flowise": 419,
+    "harry0703/MoneyPrinterTurbo": 2,
+    "ZhuLinsen/daily_stock_analysis": 45,
+    "microsoft/autogen": 335,
+    "justjavac/free-programming-books-zh_CN": 2,
+    "nvbn/thefuck": 301,
+    "zylon-ai/private-gpt": 374,
+    "ultralytics/yolov5": 68,
+    "nexu-io/open-design": 650,
+    "jquery/jquery": 692,
+    "dani-garcia/vaultwarden": 472,
+    "unclecode/crawl4ai": 36,
+    "metabase/metabase": 127,
+    "mermaid-js/mermaid": 270,
+    "santifer/career-ops": 28,
+    "appwrite/appwrite": 341,
+    "ossu/computer-science": 51,
+    "maybe-finance/maybe": 168,
+    "skylot/jadx": 162,
+    "pmndrs/zustand": 322,
+    "CorentinJ/Real-Time-Voice-Cloning": 62,
+    "rtk-ai/rtk": 219,
+    "firecrawl/firecrawl": 95,
+    "jellyfin/jellyfin": 382,
+    "farion1231/cc-switch": 92,
+    "multica-ai/andrej-karpathy-skills": 1,
+    "hacksider/Deep-Live-Cam": 19,
+    "lobehub/lobehub": 252,
+    "base/node": 49,
+    "FortAwesome/Font-Awesome": 53,
+    "axios/axios": 88,
+    "shadcn-ui/ui": 8,
+    "crewAIInc/crewAI": 204,
+    "leonardomso/33-js-concepts": 8,
+    "toeverything/AFFiNE": 63,
+    "ohmyzsh/ohmyzsh": 23,
+    "localsend/localsend": 19,
+    "minio/minio": 428,
+    "charlax/professional-programming": 2,
+    "Graphify-Labs/graphify": 1,
+    "JetBrains/kotlin": 958,
+    "bradtraversy/design-resources-for-developers": 30,
+    "akullpp/awesome-java": 15,
+    "ageitgey/face_recognition": 17,
+    "Raphire/Win11Debloat": 3,
+    "koala73/worldmonitor": 47,
+    "kelseyhightower/kubernetes-the-hard-way": 36,
+    "resume/resume.github.com": 20,
+    "freqtrade/freqtrade": 132,
+    "deepseek-ai/DeepSeek-V3": 8,
+    "dair-ai/Prompt-Engineering-Guide": 1,
+    "kelseyhightower/nocode": 11,
+    "DopplerHQ/awesome-interview-questions": 9,
+    "shanraisshan/claude-code-best-practice": 4,
+    "junegunn/fzf": 207,
+    "cline/cline": 289,
+    "ultraworkers/claw-code": 2,
+    "slidevjs/slidev": 84,
+    "langflow-ai/langflow": 228,
+    "bigskysoftware/htmx": 106,
+    "marktext/marktext": 201,
+    "prettier/prettier": 162,
+    "macrozheng/mall": 2,
+    "astral-sh/ruff": 512,
+    "PKUFlyingPig/cs-self-learning": 193,
+    "NanmiCoder/MediaCrawler": 2,
+    "microsoft/ai-agents-for-beginners": 28,
+    "clash-verge-rev/clash-verge-rev": 75,
+    "react/create-react-app": 151,
+    "pathwaycom/llm-app": 65,
+    "AppFlowy-IO/AppFlowy": 8,
+    "enaqx/awesome-react": 17,
+    "Semantic-Org/Semantic-UI": 27,
+    "earendil-works/pi": 36,
+    "TryGhost/Ghost": 197,
+    "tw93/Mole": 2,
+    "vsouza/awesome-ios": 9,
+    "hakimel/reveal.js": 30,
+    "airbnb/javascript": 201,
+    "soimort/you-get": 7,
+    "modelcontextprotocol/servers": 1,
+    "Asabeneh/30-Days-Of-Python": 10,
+    "webpack/webpack": 180,
+    "iptv-org/iptv": 60,
+    "Shubhamsaboo/awesome-llm-apps": 7,
+    "dockur/windows": 6,
+    "animate-css/animate.css": 31,
+    "jesseduffield/lazygit": 178,
+    "swisskyrepo/PayloadsAllTheThings": 12,
+    "swiftlang/swift": 53,
+    "bytedance/deer-flow": 1242,
+    "anomalyco/opencode": 11,
+    "jgthms/bulma": 17,
+    "BerriAI/litellm": 171,
+    "wagoodman/dive": 20,
+    "datawhalechina/hello-agents": 3,
+    "FuelLabs/sway": 868,
+    "usememos/memos": 30,
+    "ByteByteGoHq/system-design-101": 11,
+    "tesseract-ocr/tesseract": 299,
+    "traefik/traefik": 144,
+    "chenglou/pretext": 3,
+    "MunGell/awesome-for-beginners": 41,
+    "anthropics/skills": 7,
+    "jesseduffield/lazydocker": 248,
+    "FiloSottile/mkcert": 64,
+    "odysseus-dev/odysseus": 5,
+    "freeCodeCamp/freeCodeCamp": 344,
+    "immich-app/immich": 178,
+    "infiniflow/ragflow": 61,
+    "996icu/996.ICU": 13,
+    "microsoft/terminal": 534,
+    "sveltejs/svelte": 270,
+    "trimstray/the-book-of-secret-knowledge": 29,
+    "google/material-design-icons": 19,
+    "d2l-ai/d2l-zh": 186,
+    "expo/expo": 235,
+    "anthropics/claude-code": 23,
+    "sickcodes/Docker-OSX": 16,
+    "commaai/openpilot": 71,
+    "fatedier/frp": 60,
+    "hwchase17/langchain": 2,
+    "lllyasviel/Fooocus": 80,
+    "daytonaio/daytona": 138,
+    "agalwood/Motrix": 51,
+    "florinpop17/app-ideas": 28,
+    "sansan0/TrendRadar": 10,
+    "h5bp/Front-end-Developer-Interview-Questions": 147,
+    "mozilla/pdf.js": 269,
+    "yangshun/tech-interview-handbook": 23,
+    "romkatv/powerlevel10k": 24,
+    "tensorflow/models": 574,
+    "pathwaycom/pathway": 90,
+    "addyosmani/agent-skills": 30,
+    "anthropics/claude-cookbooks": 46,
+    "hesreallyhim/awesome-claude-code": 17,
+    "ghostty-org/ghostty": 29,
+    "paperclipai/paperclip": 99,
+    "shadowsocks/shadowsocks-windows": 116,
+    "vuejs/awesome-vue": 11,
+    "python/cpython": 78,
+    "labmlai/annotated_deep_learning_paper_implementations": 3,
+    "pbakaus/impeccable": 75,
+    "sebastianbergmann/phpunit": 242,
+    "microsoft/AI-For-Beginners": 4,
+    "PaddlePaddle/PaddleOCR": 147,
+    "NationalSecurityAgency/ghidra": 190,
+    "ryanmcdermott/clean-code-javascript": 57,
+    "angular/angular.js": 1263,
+    "tldr-pages/tldr": 229,
+    "astral-sh/uv": 238,
+    "JuliusBrussee/caveman": 1,
+    "Genymobile/scrcpy": 518,
+    "typicode/json-server": 18,
+    "binary-husky/gpt_academic": 1,
+    "ryanoasis/nerd-fonts": 114,
+    "tw93/Pake": 36,
+    "openinterpreter/openinterpreter": 96,
+    "ocornut/imgui": 46,
+    "gsd-build/get-shit-done": 44,
+    "massgravel/Microsoft-Activation-Scripts": 1,
+    "krahets/hello-algo": 680,
+    "Chalarangelo/30-seconds-of-code": 21,
+    "mvanhorn/last30days-skill": 102,
+    "tonsky/FiraCode": 21,
+    "ReactiveX/RxJava": 3,
+    "getify/You-Dont-Know-JS": 53,
+    "pi-hole/pi-hole": 298,
+    "golang-standards/project-layout": 9,
+    "tmux/tmux": 6,
+    "Significant-Gravitas/AutoGPT": 1813,
+    "2dust/v2rayNG": 25,
+    "storybookjs/storybook": 380,
+    "brillout/awesome-react-components": 3,
+    "meta-llama/llama": 30,
+    "code-yeongyu/oh-my-openagent": 30,
+    "ollama/ollama": 268,
+    "labuladong/fucking-algorithm": 13,
+    "langgenius/dify": 31,
+    "aaif-goose/goose": 286,
+    "github/gitignore": 1,
+    "shareAI-lab/learn-claude-code": 10,
+    "thedaviddias/Front-End-Checklist": 4,
+    "WerWolv/ImHex": 138,
+    "danielmiessler/SecLists": 7,
+    "localstack/localstack": 582,
+    "rust-unofficial/awesome-rust": 21,
+    "OpenHands/OpenHands": 423,
+    "Egonex-AI/Understand-Anything": 12,
+    "deepseek-ai/DeepSeek-R1": 2,
+    "caddyserver/caddy": 317,
+    "ClickHouse/ClickHouse": 213,
+    "git/git": 57,
+    "odoo/odoo": 41,
+    "microsoft/playwright": 410,
+    "jgraph/drawio-desktop": 3,
+    "moment/moment": 117,
+    "bmad-code-org/BMAD-METHOD": 407,
+    "excalidraw/excalidraw": 84,
+    "PanJiaChen/vue-element-admin": 9,
+    "lencx/ChatGPT": 8,
+    "nomic-ai/gpt4all": 204,
+    "pocketbase/pocketbase": 118,
+    "avelino/awesome-go": 16,
+    "laurent22/joplin": 211,
+    "lydiahallie/javascript-questions": 79,
+    "xtekky/gpt4free": 41,
+    "poteto/hiring-without-whiteboards": 42,
+    "AlistGo/alist": 22,
+    "ChrisTitusTech/winutil": 31,
+    "gorhill/uBlock": 145,
+    "FoundationAgents/MetaGPT": 515,
+    "NARKOZ/hacker-scripts": 10,
+    "openai/openai-cookbook": 34,
+    "Stirling-Tools/Stirling-PDF": 167,
+    "vuejs/core": 73,
+    "mastodon/mastodon": 118,
+    "garrytan/gstack": 5,
+    "VoltAgent/awesome-design-md": 3,
+    "Eugeny/tabby": 30,
+    "jaywcjlove/awesome-mac": 38,
+    "react/react-native": 83,
+    "affaan-m/ECC": 93,
+    "Solido/awesome-flutter": 12,
+    "nilbuild/design-patterns-for-humans": 5,
+    "ripienaar/free-for-dev": 128,
+    "reduxjs/redux": 118,
+    "asgeirtj/system_prompts_leaks": 1,
+    "neovim/neovim": 134,
+    "topjohnwu/Magisk": 12,
+    "nuxt/nuxt": 179,
+    "upstash/context7": 79,
+    "Fission-AI/OpenSpec": 174,
+    "docling-project/docling": 389,
+    "iamkun/dayjs": 156,
+    "hiyouga/LlamaFactory": 277,
+    "TauricResearch/TradingAgents": 62,
+    "microsoft/markitdown": 107,
+    "n8n-io/n8n": 498,
+    "unslothai/unsloth": 1646,
+    "obra/superpowers": 19,
+    "openclaw/openclaw": 1,
+    "msitarzewski/agency-agents": 1,
+    "TapXWorld/ChinaTextbook": 1,
+    "ultralytics/ultralytics": 374,
+    "opendatalab/MinerU": 3,
+    "justjavac/wechat-miniapp-radar": 4,
+    "nektos/act": 195,
+    "apache/superset": 345,
+    "remix-run/react-router": 153,
+    "cypress-io/cypress": 773,
+    "xai-org/grok-1": 1,
+    "AntonOsika/gpt-engineer": 282,
+    "apple/container": 684,
+    "bregman-arie/devops-exercises": 114,
+    "anuraghazra/github-readme-stats": 12,
+    "OpenCut-app/OpenCut": 40,
+    "goldbergyoni/nodebestpractices": 356,
+    "OpenBB-finance/OpenBB": 215,
+    "vllm-project/vllm": 225
+  },
+  "no_license": [
+    "laravel/laravel",
+    "CyC2018/CS-Notes",
+    "matplotlib/matplotlib",
+    "postmanlabs/postman-app-support",
+    "prakhar1989/awesome-courses",
+    "youngyangyang04/leetcode-master",
+    "521xueweihan/HelloGitHub",
+    "codecrafters-io/build-your-own-x",
+    "karpathy/autoresearch",
+    "jlevy/the-art-of-command-line",
+    "DovAmir/awesome-design-patterns",
+    "papers-we-love/papers-we-love",
+    "multica-ai/andrej-karpathy-skills",
+    "JetBrains/kotlin",
+    "resume/resume.github.com",
+    "DopplerHQ/awesome-interview-questions",
+    "enaqx/awesome-react",
+    "Asabeneh/30-Days-Of-Python",
+    "MunGell/awesome-for-beginners",
+    "anthropics/skills",
+    "anthropics/claude-code",
+    "daytonaio/daytona",
+    "labuladong/fucking-algorithm",
+    "thedaviddias/Front-End-Checklist",
+    "lencx/ChatGPT",
+    "NARKOZ/hacker-scripts",
+    "Solido/awesome-flutter",
+    "nilbuild/design-patterns-for-humans",
+    "ripienaar/free-for-dev",
+    "TapXWorld/ChinaTextbook"
+  ],
+  "copyleft": [
+    "ansible/ansible (gpl-3.0)",
+    "ethereum/go-ethereum (lgpl-3.0)",
+    "obsproject/obs-studio (gpl-2.0)",
+    "discourse/discourse (gpl-2.0)",
+    "TheAlgorithms/JavaScript (gpl-3.0)",
+    "grafana/grafana (agpl-3.0)",
+    "PyCQA/pylint (gpl-2.0)",
+    "plausible/analytics (agpl-3.0)",
+    "matomo-org/matomo (gpl-3.0)",
+    "tooljet/tooljet (agpl-3.0)",
+    "grafana/k6 (agpl-3.0)",
+    "AUTOMATIC1111/stable-diffusion-webui (agpl-3.0)",
+    "Comfy-Org/ComfyUI (gpl-3.0)",
+    "x1xhlol/system-prompts-and-models-of-ai-tools (gpl-3.0)",
+    "CherryHQ/cherry-studio (agpl-3.0)",
+    "warpdotdev/warp (agpl-3.0)",
+    "makeplane/plane (agpl-3.0)",
+    "netdata/netdata (gpl-3.0)",
+    "rustdesk/rustdesk (agpl-3.0)",
+    "twitter/the-algorithm (agpl-3.0)",
+    "ventoy/Ventoy (gpl-3.0)",
+    "deepfakes/faceswap (gpl-3.0)",
+    "2dust/v2rayN (gpl-3.0)",
+    "justjavac/free-programming-books-zh_CN (gpl-3.0)",
+    "ultralytics/yolov5 (agpl-3.0)",
+    "dani-garcia/vaultwarden (agpl-3.0)",
+    "maybe-finance/maybe (agpl-3.0)",
+    "firecrawl/firecrawl (agpl-3.0)",
+    "jellyfin/jellyfin (gpl-2.0)",
+    "hacksider/Deep-Live-Cam (agpl-3.0)",
+    "minio/minio (agpl-3.0)",
+    "freqtrade/freqtrade (gpl-3.0)",
+    "clash-verge-rev/clash-verge-rev (gpl-3.0)",
+    "AppFlowy-IO/AppFlowy (agpl-3.0)",
+    "tw93/Mole (gpl-3.0)",
+    "odysseus-dev/odysseus (agpl-3.0)",
+    "immich-app/immich (agpl-3.0)",
+    "sickcodes/Docker-OSX (gpl-3.0)",
+    "lllyasviel/Fooocus (gpl-3.0)",
+    "sansan0/TrendRadar (gpl-3.0)",
+    "binary-husky/gpt_academic (gpl-3.0)",
+    "tw93/Pake (gpl-3.0)",
+    "massgravel/Microsoft-Activation-Scripts (gpl-3.0)",
+    "2dust/v2rayNG (gpl-3.0)",
+    "WerWolv/ImHex (gpl-2.0)",
+    "xtekky/gpt4free (gpl-3.0)",
+    "AlistGo/alist (agpl-3.0)",
+    "gorhill/uBlock (gpl-3.0)",
+    "mastodon/mastodon (agpl-3.0)",
+    "topjohnwu/Magisk (gpl-3.0)",
+    "ultralytics/ultralytics (agpl-3.0)",
+    "justjavac/wechat-miniapp-radar (gpl-3.0)"
+  ],
+  "noassertion_repos_by_impact": [
+    "FuelLabs/fuel-core",
+    "Significant-Gravitas/AutoGPT",
+    "oven-sh/bun",
+    "krahets/hello-algo",
+    "hashicorp/terraform",
+    "localstack/localstack",
+    "tensorflow/models",
+    "meilisearch/meilisearch",
+    "n8n-io/n8n",
+    "twentyhq/twenty",
+    "FlowiseAI/Flowise",
+    "bmad-code-org/BMAD-METHOD",
+    "redis/redis",
+    "numpy/numpy",
+    "withastro/astro",
+    "pi-hole/pi-hole",
+    "nodejs/node",
+    "tldraw/tldraw",
+    "lobehub/lobehub",
+    "twisted/twisted",
+    "budibase/budibase",
+    "DefinitelyTyped/DefinitelyTyped",
+    "tldr-pages/tldr",
+    "OpenBB-finance/OpenBB",
+    "encode/django-rest-framework",
+    "laurent22/joplin",
+    "openai/gym",
+    "x64dbg/x64dbg",
+    "BerriAI/litellm",
+    "Stirling-Tools/Stirling-PDF",
+    "pytorch/pytorch",
+    "celery/celery",
+    "lodash/lodash",
+    "iluwatar/java-design-patterns",
+    "getsentry/sentry",
+    "neovim/neovim",
+    "posthog/posthog",
+    "metabase/metabase",
+    "shadowsocks/shadowsocks-windows",
+    "ryanoasis/nerd-fonts",
+    "bregman-arie/devops-exercises",
+    "bigskysoftware/htmx",
+    "zed-industries/zed",
+    "pathwaycom/pathway",
+    "termux/termux-app",
+    "python/cpython",
+    "azl397985856/leetcode",
+    "strapi/strapi",
+    "rq/rq",
+    "toeverything/AFFiNE",
+    "CorentinJ/Real-Time-Voice-Cloning",
+    "rasbt/LLMs-from-scratch",
+    "git/git",
+    "donnemartin/system-design-primer",
+    "FortAwesome/Font-Awesome",
+    "getify/You-Dont-Know-JS",
+    "agalwood/Motrix",
+    "koala73/worldmonitor",
+    "odoo/odoo",
+    "elastic/elasticsearch",
+    "animate-css/animate.css",
+    "langgenius/dify",
+    "f/prompts.chat",
+    "meta-llama/llama",
+    "code-yeongyu/oh-my-openagent",
+    "remotion-dev/remotion",
+    "hesreallyhim/awesome-claude-code",
+    "ruby/ruby",
+    "gevent/gevent",
+    "996icu/996.ICU",
+    "Neovim/neovim",
+    "CompVis/stable-diffusion",
+    "ByteByteGoHq/system-design-101",
+    "PyCQA/flake8",
+    "golang-standards/project-layout",
+    "nocodb/nocodb",
+    "open-webui/open-webui",
+    "soimort/you-get",
+    "gitlabhq/gitlabhq",
+    "datawhalechina/hello-agents",
+    "opendatalab/MinerU",
+    "vinta/awesome-python",
+    "NanmiCoder/MediaCrawler",
+    "kamranahmedse/developer-roadmap",
+    "modelcontextprotocol/servers",
+    "openclaw/openclaw"
+  ],
+  "all_licenses": {
+    "vuejs/vue": {
+      "key": "mit",
+      "download_url": null
+    },
+    "microsoft/vscode": {
+      "key": "mit",
+      "download_url": null
+    },
+    "scikit-learn/scikit-learn": {
+      "key": "bsd-3-clause",
+      "download_url": null
+    },
+    "keras-team/keras": {
+      "key": "apache-2.0",
+      "download_url": null
+    },
+    "huggingface/transformers": {
+      "key": "apache-2.0",
+      "download_url": null
+    },
+    "facebook/react": {
+      "key": "mit",
+      "download_url": null
+    },
+    "django/django": {
+      "key": "bsd-3-clause",
+      "download_url": null
+    },
+    "pandas-dev/pandas": {
+      "key": "bsd-3-clause",
+      "download_url": null
+    },
+    "numpy/numpy": {
+      "key": "other",
+      "download_url": null
+    },
+    "pytorch/pytorch": {
+      "key": "other",
+      "download_url": null
+    },
+    "kubernetes/kubernetes": {
+      "key": "apache-2.0",
+      "download_url": null
+    },
+    "psf/requests": {
+      "key": "apache-2.0",
+      "download_url": null
+    },
+    "angular/angular": {
+      "key": "mit",
+      "download_url": null
+    },
+    "fastapi/fastapi": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/fastapi/fastapi/master/LICENSE"
+    },
+    "rust-lang/rust": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/rust-lang/rust/main/LICENSE-APACHE"
+    },
+    "golang/go": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/golang/go/master/LICENSE"
+    },
+    "nodejs/node": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/nodejs/node/main/LICENSE"
+    },
+    "denoland/deno": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/denoland/deno/main/LICENSE.md"
+    },
+    "microsoft/TypeScript": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/microsoft/TypeScript/main/LICENSE.txt"
+    },
+    "apple/swift": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/swiftlang/swift/main/LICENSE.txt"
+    },
+    "flutter/flutter": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/flutter/flutter/master/LICENSE"
+    },
+    "electron/electron": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/electron/electron/main/LICENSE"
+    },
+    "docker/docker-ce": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/docker-archive/docker-ce/master/LICENSE"
+    },
+    "moby/moby": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/moby/moby/master/LICENSE"
+    },
+    "ansible/ansible": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ansible/ansible/devel/COPYING"
+    },
+    "home-assistant/core": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/home-assistant/core/dev/LICENSE.md"
+    },
+    "hashicorp/terraform": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/hashicorp/terraform/main/LICENSE"
+    },
+    "elastic/elasticsearch": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/elastic/elasticsearch/main/LICENSE.txt"
+    },
+    "apache/spark": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/spark/master/LICENSE"
+    },
+    "apache/kafka": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/kafka/trunk/LICENSE"
+    },
+    "spring-projects/spring-boot": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/spring-projects/spring-boot/main/LICENSE.txt"
+    },
+    "vercel/next.js": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/vercel/next.js/canary/license.md"
+    },
+    "gatsbyjs/gatsby": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/gatsbyjs/gatsby/master/LICENSE"
+    },
+    "tailwindlabs/tailwindcss": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/main/LICENSE"
+    },
+    "twbs/bootstrap": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/twbs/bootstrap/main/LICENSE"
+    },
+    "ant-design/ant-design": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ant-design/ant-design/master/LICENSE"
+    },
+    "mui/material-ui": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/mui/material-ui/master/LICENSE"
+    },
+    "bitcoin/bitcoin": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/bitcoin/bitcoin/master/COPYING"
+    },
+    "ethereum/go-ethereum": {
+      "key": "lgpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ethereum/go-ethereum/master/COPYING"
+    },
+    "obsproject/obs-studio": {
+      "key": "gpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/obsproject/obs-studio/master/COPYING"
+    },
+    "microsoft/PowerToys": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/PowerToys/main/LICENSE"
+    },
+    "godotengine/godot": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/godotengine/godot/master/LICENSE.txt"
+    },
+    "mrdoob/three.js": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/mrdoob/three.js/dev/LICENSE"
+    },
+    "socketio/socket.io": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/socketio/socket.io/main/LICENSE"
+    },
+    "expressjs/express": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/expressjs/express/master/LICENSE"
+    },
+    "nestjs/nest": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nestjs/nest/master/LICENSE"
+    },
+    "strapi/strapi": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/strapi/strapi/develop/LICENSE"
+    },
+    "redis/redis": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/redis/redis/unstable/LICENSE.txt"
+    },
+    "memcached/memcached": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/memcached/memcached/master/LICENSE"
+    },
+    "celery/celery": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/celery/celery/main/LICENSE"
+    },
+    "rq/rq": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/rq/rq/master/LICENSE"
+    },
+    "ruby/ruby": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/ruby/ruby/master/COPYING"
+    },
+    "rails/rails": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/rails/rails/main/MIT-LICENSE"
+    },
+    "jekyll/jekyll": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE"
+    },
+    "discourse/discourse": {
+      "key": "gpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/discourse/discourse/main/LICENSE.txt"
+    },
+    "gitlabhq/gitlabhq": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/master/LICENSE"
+    },
+    "php/php-src": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/php/php-src/master/LICENSE"
+    },
+    "laravel/laravel": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "symfony/symfony": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/symfony/symfony/8.2/LICENSE"
+    },
+    "composer/composer": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/composer/composer/main/LICENSE"
+    },
+    "briannesbitt/Carbon": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/briannesbitt/Carbon/master/LICENSE"
+    },
+    "vinta/awesome-python": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/vinta/awesome-python/master/LICENSE"
+    },
+    "sindresorhus/awesome": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/sindresorhus/awesome/main/license"
+    },
+    "jwasham/coding-interview-university": {
+      "key": "cc-by-sa-4.0",
+      "download_url": "https://raw.githubusercontent.com/jwasham/coding-interview-university/main/LICENSE.txt"
+    },
+    "public-apis/public-apis": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/public-apis/public-apis/master/LICENSE"
+    },
+    "EbookFoundation/free-programming-books": {
+      "key": "cc-by-4.0",
+      "download_url": "https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/LICENSE"
+    },
+    "CyC2018/CS-Notes": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "TheAlgorithms/Python": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/LICENSE.md"
+    },
+    "TheAlgorithms/Java": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/LICENSE"
+    },
+    "TheAlgorithms/C-Plus-Plus": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/TheAlgorithms/C-Plus-Plus/master/LICENSE"
+    },
+    "TheAlgorithms/JavaScript": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/TheAlgorithms/JavaScript/master/LICENSE"
+    },
+    "30-seconds/30-seconds-of-code": {
+      "key": "cc-by-4.0",
+      "download_url": "https://raw.githubusercontent.com/Chalarangelo/30-seconds-of-code/master/LICENSE"
+    },
+    "gin-gonic/gin": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/gin-gonic/gin/master/LICENSE"
+    },
+    "gohugoio/hugo": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/gohugoio/hugo/master/LICENSE"
+    },
+    "prometheus/prometheus": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/prometheus/prometheus/main/LICENSE"
+    },
+    "grafana/grafana": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/grafana/grafana/main/LICENSE"
+    },
+    "etcd-io/etcd": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/etcd-io/etcd/main/LICENSE"
+    },
+    "gogs/gogs": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/gogs/gogs/main/LICENSE"
+    },
+    "syncthing/syncthing": {
+      "key": "mpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/syncthing/syncthing/main/LICENSE"
+    },
+    "rclone/rclone": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/rclone/rclone/master/COPYING"
+    },
+    "BurntSushi/ripgrep": {
+      "key": "unlicense",
+      "download_url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/UNLICENSE"
+    },
+    "tokio-rs/tokio": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/tokio-rs/tokio/master/LICENSE"
+    },
+    "serde-rs/serde": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/serde-rs/serde/master/LICENSE-APACHE"
+    },
+    "clap-rs/clap": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/clap-rs/clap/master/LICENSE-APACHE"
+    },
+    "tauri-apps/tauri": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/tauri-apps/tauri/dev/LICENSE-APACHE-2.0"
+    },
+    "alacritty/alacritty": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/alacritty/alacritty/master/LICENSE-APACHE"
+    },
+    "dandavison/delta": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/dandavison/delta/main/LICENSE"
+    },
+    "starship/starship": {
+      "key": "isc",
+      "download_url": "https://raw.githubusercontent.com/starship/starship/main/LICENSE"
+    },
+    "zellij-org/zellij": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/zellij-org/zellij/main/LICENSE.md"
+    },
+    "nushell/nushell": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nushell/nushell/main/LICENSE"
+    },
+    "bevyengine/bevy": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/bevyengine/bevy/main/LICENSE-APACHE"
+    },
+    "helix-editor/helix": {
+      "key": "mpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/helix-editor/helix/master/LICENSE"
+    },
+    "lapce/lapce": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/lapce/lapce/master/LICENSE"
+    },
+    "Neovim/neovim": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/neovim/neovim/master/LICENSE.txt"
+    },
+    "vim/vim": {
+      "key": "vim",
+      "download_url": "https://raw.githubusercontent.com/vim/vim/master/LICENSE"
+    },
+    "zsh-users/zsh-autosuggestions": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/LICENSE"
+    },
+    "robbyrussell/oh-my-zsh": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/LICENSE.txt"
+    },
+    "nvm-sh/nvm": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/LICENSE.md"
+    },
+    "pyenv/pyenv": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pyenv/pyenv/master/LICENSE"
+    },
+    "pypa/pip": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pypa/pip/main/LICENSE.txt"
+    },
+    "pypa/virtualenv": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pypa/virtualenv/main/LICENSE"
+    },
+    "pypa/pipenv": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pypa/pipenv/main/LICENSE"
+    },
+    "psf/black": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/psf/black/main/LICENSE"
+    },
+    "PyCQA/flake8": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/PyCQA/flake8/main/LICENSE"
+    },
+    "PyCQA/pylint": {
+      "key": "gpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/pylint-dev/pylint/main/LICENSE"
+    },
+    "pytest-dev/pytest": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pytest-dev/pytest/main/LICENSE"
+    },
+    "tox-dev/tox": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/tox-dev/tox/main/LICENSE"
+    },
+    "pydantic/pydantic": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pydantic/pydantic/main/LICENSE"
+    },
+    "tiangolo/sqlmodel": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/fastapi/sqlmodel/main/LICENSE"
+    },
+    "sqlalchemy/sqlalchemy": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/LICENSE"
+    },
+    "encode/starlette": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/Kludex/starlette/main/LICENSE.md"
+    },
+    "encode/httpx": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/encode/httpx/master/LICENSE.md"
+    },
+    "miguelgrinberg/Flask-SocketIO": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/miguelgrinberg/Flask-SocketIO/main/LICENSE"
+    },
+    "celery/kombu": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/celery/kombu/main/LICENSE"
+    },
+    "tornadoweb/tornado": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/tornadoweb/tornado/master/LICENSE"
+    },
+    "twisted/twisted": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/twisted/twisted/trunk/LICENSE"
+    },
+    "gevent/gevent": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/gevent/gevent/master/LICENSE"
+    },
+    "scrapy/scrapy": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/scrapy/scrapy/master/LICENSE"
+    },
+    "pydata/xarray": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/pydata/xarray/main/LICENSE"
+    },
+    "dask/dask": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/dask/dask/main/LICENSE.txt"
+    },
+    "ray-project/ray": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/ray-project/ray/master/LICENSE"
+    },
+    "matplotlib/matplotlib": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "mwaskom/seaborn": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/mwaskom/seaborn/master/LICENSE.md"
+    },
+    "plotly/plotly.py": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/plotly/plotly.py/main/LICENSE.txt"
+    },
+    "bokeh/bokeh": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/bokeh/bokeh/branch-4.0/LICENSE.txt"
+    },
+    "streamlit/streamlit": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/LICENSE"
+    },
+    "gradio-app/gradio": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/gradio-app/gradio/main/LICENSE"
+    },
+    "jupyterlab/jupyterlab": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/jupyterlab/jupyterlab/main/LICENSE"
+    },
+    "ipython/ipython": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/ipython/ipython/main/LICENSE"
+    },
+    "spyder-ide/spyder": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/spyder-ide/spyder/master/LICENSE.txt"
+    },
+    "apache/airflow": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/airflow/main/LICENSE"
+    },
+    "dagster-io/dagster": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/dagster-io/dagster/master/LICENSE"
+    },
+    "prefecthq/prefect": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/PrefectHQ/prefect/main/LICENSE"
+    },
+    "mlflow/mlflow": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/mlflow/mlflow/master/LICENSE.txt"
+    },
+    "huggingface/datasets": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/huggingface/datasets/main/LICENSE"
+    },
+    "huggingface/accelerate": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/huggingface/accelerate/main/LICENSE"
+    },
+    "huggingface/peft": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/huggingface/peft/main/LICENSE"
+    },
+    "langchain-ai/langchain": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/langchain-ai/langchain/master/LICENSE"
+    },
+    "run-llama/llama_index": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE"
+    },
+    "milvus-io/milvus": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/milvus-io/milvus/master/LICENSE"
+    },
+    "qdrant/qdrant": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/qdrant/qdrant/master/LICENSE"
+    },
+    "weaviate/weaviate": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/weaviate/weaviate/main/LICENSE"
+    },
+    "chroma-core/chroma": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/chroma-core/chroma/main/LICENSE"
+    },
+    "facebookresearch/faiss": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/facebookresearch/faiss/main/LICENSE"
+    },
+    "openai/gym": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/openai/gym/master/LICENSE.md"
+    },
+    "openai/whisper": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE"
+    },
+    "ggerganov/llama.cpp": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/LICENSE"
+    },
+    "ggerganov/whisper.cpp": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/LICENSE"
+    },
+    "karpathy/nanoGPT": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/LICENSE"
+    },
+    "karpathy/minGPT": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/karpathy/minGPT/master/LICENSE"
+    },
+    "lucidrains/DALLE2-pytorch": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/lucidrains/DALLE2-pytorch/main/LICENSE"
+    },
+    "lucidrains/imagen-pytorch": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/lucidrains/imagen-pytorch/main/LICENSE"
+    },
+    "CompVis/stable-diffusion": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/LICENSE"
+    },
+    "huggingface/diffusers": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/huggingface/diffusers/main/LICENSE"
+    },
+    "tiangolo/full-stack-fastapi-postgresql": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/LICENSE"
+    },
+    "cookiecutter/cookiecutter": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/cookiecutter/cookiecutter/main/LICENSE"
+    },
+    "Audreyfeldroy/cookiecutter-pypackage": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/audreyfeldroy/cookiecutter-pypackage/main/LICENSE"
+    },
+    "pypa/sampleproject": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pypa/sampleproject/main/LICENSE.txt"
+    },
+    "encode/django-rest-framework": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/encode/django-rest-framework/main/LICENSE.md"
+    },
+    "graphql-python/graphene": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/graphql-python/graphene/master/LICENSE"
+    },
+    "strawberry-graphql/strawberry": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/strawberry-graphql/strawberry/main/LICENSE"
+    },
+    "tiangolo/typer": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/fastapi/typer/master/LICENSE"
+    },
+    "Textualize/rich": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Textualize/rich/main/LICENSE"
+    },
+    "Textualize/textual": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Textualize/textual/main/LICENSE"
+    },
+    "getsentry/sentry": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/getsentry/sentry/master/LICENSE.md"
+    },
+    "posthog/posthog": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/PostHog/posthog/master/LICENSE"
+    },
+    "plausible/analytics": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/plausible/analytics/master/LICENSE.md"
+    },
+    "matomo-org/matomo": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/matomo-org/matomo/5.x-dev/LICENSE"
+    },
+    "nocodb/nocodb": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/nocodb/nocodb/develop/LICENSE.md"
+    },
+    "appsmithorg/appsmith": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/appsmithorg/appsmith/release/LICENSE"
+    },
+    "tooljet/tooljet": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ToolJet/ToolJet/main/LICENSE"
+    },
+    "budibase/budibase": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/Budibase/budibase/master/LICENSE"
+    },
+    "hoppscotch/hoppscotch": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/LICENSE"
+    },
+    "postmanlabs/postman-app-support": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "Kong/insomnia": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/Kong/insomnia/develop/LICENSE"
+    },
+    "grafana/k6": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/grafana/k6/master/LICENSE.md"
+    },
+    "locustio/locust": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/locustio/locust/master/LICENSE"
+    },
+    "apache/jmeter": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/jmeter/master/LICENSE"
+    },
+    "tensorflow/tensorflow": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/tensorflow/tensorflow/master/LICENSE"
+    },
+    "pallets/flask": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/pallets/flask/main/LICENSE.txt"
+    },
+    "dbeaver/dbeaver": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/dbeaver/dbeaver/devel/LICENSE.md"
+    },
+    "sherlock-project/sherlock": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/LICENSE"
+    },
+    "kdn251/interviews": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/kdn251/interviews/master/LICENSE"
+    },
+    "louislam/uptime-kuma": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/master/LICENSE"
+    },
+    "RVC-Boss/GPT-SoVITS": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/RVC-Boss/GPT-SoVITS/main/LICENSE"
+    },
+    "ElemeFE/element": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ElemeFE/element/dev/LICENSE"
+    },
+    "open-webui/open-webui": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/open-webui/open-webui/main/LICENSE"
+    },
+    "FuelLabs/fuel-core": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/FuelLabs/fuel-core/master/LICENSE"
+    },
+    "LadybirdBrowser/ladybird": {
+      "key": "bsd-2-clause",
+      "download_url": "https://raw.githubusercontent.com/LadybirdBrowser/ladybird/master/LICENSE"
+    },
+    "google/guava": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/google/guava/master/LICENSE"
+    },
+    "AUTOMATIC1111/stable-diffusion-webui": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/LICENSE.txt"
+    },
+    "Comfy-Org/ComfyUI": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/LICENSE"
+    },
+    "opencv/opencv": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/opencv/opencv/4.x/LICENSE"
+    },
+    "x1xhlol/system-prompts-and-models-of-ai-tools": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/x1xhlol/system-prompts-and-models-of-ai-tools/main/LICENSE.md"
+    },
+    "3b1b/manim": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/3b1b/manim/master/LICENSE.md"
+    },
+    "ytdl-org/youtube-dl": {
+      "key": "unlicense",
+      "download_url": "https://raw.githubusercontent.com/ytdl-org/youtube-dl/master/LICENSE"
+    },
+    "Anduin2017/HowToCook": {
+      "key": "unlicense",
+      "download_url": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/LICENSE"
+    },
+    "roboflow/supervision": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/roboflow/supervision/develop/LICENSE.md"
+    },
+    "JuliaLang/julia": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/JuliaLang/julia/master/LICENSE.md"
+    },
+    "CherryHQ/cherry-studio": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/LICENSE"
+    },
+    "microsoft/ML-For-Beginners": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/ML-For-Beginners/main/LICENSE"
+    },
+    "virattt/ai-hedge-fund": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/main/LICENSE"
+    },
+    "penpot/penpot": {
+      "key": "mpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/penpot/penpot/develop/LICENSE"
+    },
+    "fffaraz/awesome-cpp": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/fffaraz/awesome-cpp/master/LICENSE"
+    },
+    "unionlabs/union": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/unionlabs/union/main/LICENSE-APACHE"
+    },
+    "pixijs/pixijs": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pixijs/pixijs/dev/LICENSE"
+    },
+    "warpdotdev/warp": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/warpdotdev/warp/master/LICENSE-AGPL"
+    },
+    "mattpocock/skills": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/mattpocock/skills/main/LICENSE"
+    },
+    "MemPalace/mempalace": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/MemPalace/mempalace/develop/LICENSE"
+    },
+    "f/prompts.chat": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/f/prompts.chat/main/LICENSE"
+    },
+    "dkhamsing/open-source-ios-apps": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/dkhamsing/open-source-ios-apps/master/LICENSE"
+    },
+    "atom/atom": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/atom/atom/master/LICENSE.md"
+    },
+    "prakhar1989/awesome-courses": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "iluwatar/java-design-patterns": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/iluwatar/java-design-patterns/master/LICENSE.md"
+    },
+    "typst/typst": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/typst/typst/main/LICENSE"
+    },
+    "meilisearch/meilisearch": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/LICENSE"
+    },
+    "go-gitea/gitea": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/go-gitea/gitea/main/LICENSE"
+    },
+    "chartjs/Chart.js": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/chartjs/Chart.js/master/LICENSE.md"
+    },
+    "coder/code-server": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/coder/code-server/main/LICENSE"
+    },
+    "youngyangyang04/leetcode-master": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "type-challenges/type-challenges": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/type-challenges/type-challenges/main/LICENSE"
+    },
+    "521xueweihan/HelloGitHub": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "codecrafters-io/build-your-own-x": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "thedotmack/claude-mem": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/thedotmack/claude-mem/main/LICENSE"
+    },
+    "kamranahmedse/developer-roadmap": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/nilbuild/developer-roadmap/master/license"
+    },
+    "DefinitelyTyped/DefinitelyTyped": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/LICENSE"
+    },
+    "vitejs/vite": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/vitejs/vite/main/LICENSE"
+    },
+    "huginn/huginn": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/huginn/huginn/master/LICENSE"
+    },
+    "NousResearch/hermes-agent": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/LICENSE"
+    },
+    "remotion-dev/remotion": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/remotion-dev/remotion/main/LICENSE.md"
+    },
+    "rasbt/LLMs-from-scratch": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/LICENSE.txt"
+    },
+    "ChatGPTNextWeb/NextChat": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/main/LICENSE"
+    },
+    "spring-projects/spring-framework": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/spring-projects/spring-framework/main/LICENSE.txt"
+    },
+    "ggml-org/whisper.cpp": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/LICENSE"
+    },
+    "Hack-with-Github/Awesome-Hacking": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/Hack-with-Github/Awesome-Hacking/master/LICENSE"
+    },
+    "apache/echarts": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/echarts/master/LICENSE"
+    },
+    "nlohmann/json": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nlohmann/json/develop/LICENSE.MIT"
+    },
+    "lodash/lodash": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/lodash/lodash/main/LICENSE"
+    },
+    "rust-lang/rustlings": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/rust-lang/rustlings/main/LICENSE"
+    },
+    "colbymchenry/codegraph": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/colbymchenry/codegraph/main/LICENSE"
+    },
+    "Mintplex-Labs/anything-llm": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/LICENSE"
+    },
+    "termux/termux-app": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/termux/termux-app/master/LICENSE.md"
+    },
+    "TanStack/query": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/TanStack/query/main/LICENSE"
+    },
+    "facebookresearch/segment-anything": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/LICENSE"
+    },
+    "Z4nzu/hackingtool": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Z4nzu/hackingtool/master/LICENSE"
+    },
+    "makeplane/plane": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/makeplane/plane/preview/LICENSE.txt"
+    },
+    "ggml-org/llama.cpp": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/LICENSE"
+    },
+    "serhii-londar/open-source-mac-os-apps": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/serhii-londar/open-source-mac-os-apps/master/LICENSE"
+    },
+    "headroomlabs-ai/headroom": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/LICENSE"
+    },
+    "twentyhq/twenty": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/twentyhq/twenty/main/LICENSE"
+    },
+    "h5bp/html5-boilerplate": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/h5bp/html5-boilerplate/main/LICENSE.txt"
+    },
+    "necolas/normalize.css": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/necolas/normalize.css/master/LICENSE.md"
+    },
+    "browser-use/browser-use": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/browser-use/browser-use/main/LICENSE"
+    },
+    "lyswhut/lx-music-desktop": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/lyswhut/lx-music-desktop/master/LICENSE"
+    },
+    "facebook/docusaurus": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/facebook/docusaurus/main/LICENSE"
+    },
+    "algorithm-visualizer/algorithm-visualizer": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/algorithm-visualizer/algorithm-visualizer/master/LICENSE"
+    },
+    "trekhleb/javascript-algorithms": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/LICENSE"
+    },
+    "juliangarnier/anime": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/LICENSE.md"
+    },
+    "karpathy/autoresearch": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "netdata/netdata": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/netdata/netdata/master/LICENSE"
+    },
+    "mtdvio/every-programmer-should-know": {
+      "key": "cc-by-4.0",
+      "download_url": "https://raw.githubusercontent.com/mtdvio/every-programmer-should-know/master/LICENSE"
+    },
+    "karpathy/nanochat": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/karpathy/nanochat/master/LICENSE"
+    },
+    "FoundationAgents/OpenManus": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/FoundationAgents/OpenManus/main/LICENSE"
+    },
+    "tldraw/tldraw": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/tldraw/tldraw/main/LICENSE.md"
+    },
+    "adam-p/markdown-here": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/adam-p/markdown-here/master/LICENSE"
+    },
+    "supabase/supabase": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/supabase/supabase/master/LICENSE"
+    },
+    "sindresorhus/awesome-nodejs": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/main/license"
+    },
+    "withastro/astro": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/withastro/astro/main/LICENSE"
+    },
+    "willmcgugan/rich": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Textualize/rich/main/LICENSE"
+    },
+    "rustdesk/rustdesk": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/rustdesk/rustdesk/master/LICENCE"
+    },
+    "d3/d3": {
+      "key": "isc",
+      "download_url": "https://raw.githubusercontent.com/d3/d3/main/LICENSE"
+    },
+    "microsoft/VibeVoice": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/LICENSE"
+    },
+    "twitter/the-algorithm": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/twitter/the-algorithm/main/COPYING"
+    },
+    "react/react": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/react/react/main/LICENSE"
+    },
+    "ventoy/Ventoy": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ventoy/Ventoy/master/COPYING"
+    },
+    "azl397985856/leetcode": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/azl397985856/leetcode/master/LICENSE.txt"
+    },
+    "D4Vinci/Scrapling": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/LICENSE"
+    },
+    "ionic-team/ionic-framework": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ionic-team/ionic-framework/main/LICENSE"
+    },
+    "microsoft/generative-ai-for-beginners": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/LICENSE"
+    },
+    "sharkdp/bat": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/sharkdp/bat/master/LICENSE-APACHE"
+    },
+    "puppeteer/puppeteer": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/puppeteer/puppeteer/main/LICENSE"
+    },
+    "abi/screenshot-to-code": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/abi/screenshot-to-code/main/LICENSE"
+    },
+    "deepfakes/faceswap": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/deepfakes/faceswap/master/LICENSE"
+    },
+    "x64dbg/x64dbg": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/x64dbg/x64dbg/development/LICENSE"
+    },
+    "donnemartin/system-design-primer": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/donnemartin/system-design-primer/master/LICENSE.txt"
+    },
+    "VoltAgent/awesome-openclaw-skills": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/LICENSE"
+    },
+    "jlevy/the-art-of-command-line": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "microsoft/Web-Dev-For-Beginners": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/Web-Dev-For-Beginners/main/LICENSE"
+    },
+    "DovAmir/awesome-design-patterns": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "2dust/v2rayN": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/2dust/v2rayN/master/LICENSE"
+    },
+    "yt-dlp/yt-dlp": {
+      "key": "unlicense",
+      "download_url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/LICENSE"
+    },
+    "papers-we-love/papers-we-love": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "DietrichGebert/ponytail": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/LICENSE"
+    },
+    "Homebrew/brew": {
+      "key": "bsd-2-clause",
+      "download_url": "https://raw.githubusercontent.com/Homebrew/brew/main/LICENSE.txt"
+    },
+    "zed-industries/zed": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/zed-industries/zed/main/LICENSE-APACHE"
+    },
+    "oven-sh/bun": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/oven-sh/bun/main/LICENSE.md"
+    },
+    "tiimgreen/github-cheat-sheet": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/tiimgreen/github-cheat-sheet/master/LICENSE"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/LICENSE"
+    },
+    "google-gemini/gemini-cli": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/LICENSE"
+    },
+    "mem0ai/mem0": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/LICENSE"
+    },
+    "PowerShell/PowerShell": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/PowerShell/PowerShell/master/LICENSE.txt"
+    },
+    "github/spec-kit": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/github/spec-kit/main/LICENSE"
+    },
+    "practical-tutorials/project-based-learning": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/practical-tutorials/project-based-learning/master/LICENSE.md"
+    },
+    "coollabsio/coolify": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/coollabsio/coolify/v4.x/LICENSE"
+    },
+    "FlowiseAI/Flowise": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/FlowiseAI/Flowise/main/LICENSE.md"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/LICENSE"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/LICENSE"
+    },
+    "microsoft/autogen": {
+      "key": "cc-by-4.0",
+      "download_url": "https://raw.githubusercontent.com/microsoft/autogen/main/LICENSE"
+    },
+    "justjavac/free-programming-books-zh_CN": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/justjavac/free-programming-books-zh_CN/main/LICENSE"
+    },
+    "nvbn/thefuck": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nvbn/thefuck/master/LICENSE.md"
+    },
+    "zylon-ai/private-gpt": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/LICENSE"
+    },
+    "ultralytics/yolov5": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ultralytics/yolov5/master/LICENSE"
+    },
+    "nexu-io/open-design": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/nexu-io/open-design/main/LICENSE"
+    },
+    "jquery/jquery": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/jquery/jquery/main/LICENSE.txt"
+    },
+    "dani-garcia/vaultwarden": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/LICENSE.txt"
+    },
+    "unclecode/crawl4ai": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/unclecode/crawl4ai/main/LICENSE"
+    },
+    "metabase/metabase": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/metabase/metabase/master/LICENSE.txt"
+    },
+    "mermaid-js/mermaid": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/LICENSE"
+    },
+    "santifer/career-ops": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/santifer/career-ops/main/LICENSE"
+    },
+    "appwrite/appwrite": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/appwrite/appwrite/main/LICENSE"
+    },
+    "ossu/computer-science": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ossu/computer-science/master/LICENSE"
+    },
+    "maybe-finance/maybe": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/maybe-finance/maybe/main/LICENSE"
+    },
+    "skylot/jadx": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/skylot/jadx/master/LICENSE"
+    },
+    "pmndrs/zustand": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pmndrs/zustand/main/LICENSE"
+    },
+    "CorentinJ/Real-Time-Voice-Cloning": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/CorentinJ/Real-Time-Voice-Cloning/master/LICENSE"
+    },
+    "rtk-ai/rtk": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/rtk-ai/rtk/develop/LICENSE"
+    },
+    "firecrawl/firecrawl": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/LICENSE"
+    },
+    "jellyfin/jellyfin": {
+      "key": "gpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/jellyfin/jellyfin/master/LICENSE"
+    },
+    "farion1231/cc-switch": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/farion1231/cc-switch/main/LICENSE"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "hacksider/Deep-Live-Cam": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/LICENSE"
+    },
+    "lobehub/lobehub": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/lobehub/lobehub/canary/LICENSE"
+    },
+    "base/node": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/base/node/main/LICENSE"
+    },
+    "FortAwesome/Font-Awesome": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/LICENSE.txt"
+    },
+    "axios/axios": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/axios/axios/v1.x/LICENSE"
+    },
+    "shadcn-ui/ui": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/LICENSE.md"
+    },
+    "crewAIInc/crewAI": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/LICENSE"
+    },
+    "leonardomso/33-js-concepts": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/leonardomso/33-js-concepts/master/LICENSE"
+    },
+    "toeverything/AFFiNE": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/LICENSE"
+    },
+    "ohmyzsh/ohmyzsh": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/LICENSE.txt"
+    },
+    "localsend/localsend": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/localsend/localsend/main/LICENSE"
+    },
+    "minio/minio": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/minio/minio/master/LICENSE"
+    },
+    "charlax/professional-programming": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/charlax/professional-programming/master/LICENSE"
+    },
+    "Graphify-Labs/graphify": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/LICENSE"
+    },
+    "JetBrains/kotlin": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "bradtraversy/design-resources-for-developers": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/bradtraversy/design-resources-for-developers/master/LICENSE"
+    },
+    "akullpp/awesome-java": {
+      "key": "cc-by-sa-4.0",
+      "download_url": "https://raw.githubusercontent.com/akullpp/awesome-java/main/LICENSE"
+    },
+    "ageitgey/face_recognition": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ageitgey/face_recognition/master/LICENSE"
+    },
+    "Raphire/Win11Debloat": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Raphire/Win11Debloat/master/LICENSE"
+    },
+    "koala73/worldmonitor": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/koala73/worldmonitor/main/LICENSE"
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/kelseyhightower/kubernetes-the-hard-way/master/LICENSE"
+    },
+    "resume/resume.github.com": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "freqtrade/freqtrade": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/LICENSE"
+    },
+    "deepseek-ai/DeepSeek-V3": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/LICENSE-CODE"
+    },
+    "dair-ai/Prompt-Engineering-Guide": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/LICENSE.md"
+    },
+    "kelseyhightower/nocode": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/kelseyhightower/nocode/master/LICENSE"
+    },
+    "DopplerHQ/awesome-interview-questions": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "shanraisshan/claude-code-best-practice": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/LICENSE"
+    },
+    "junegunn/fzf": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/junegunn/fzf/master/LICENSE"
+    },
+    "cline/cline": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/cline/cline/main/LICENSE"
+    },
+    "ultraworkers/claw-code": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ultraworkers/claw-code/main/LICENSE"
+    },
+    "slidevjs/slidev": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/slidevjs/slidev/main/LICENSE"
+    },
+    "langflow-ai/langflow": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/langflow-ai/langflow/main/LICENSE"
+    },
+    "bigskysoftware/htmx": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/bigskysoftware/htmx/master/LICENSE"
+    },
+    "marktext/marktext": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/marktext/marktext/develop/LICENSE"
+    },
+    "prettier/prettier": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/prettier/prettier/main/LICENSE"
+    },
+    "macrozheng/mall": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/macrozheng/mall/master/LICENSE"
+    },
+    "astral-sh/ruff": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/astral-sh/ruff/main/LICENSE"
+    },
+    "PKUFlyingPig/cs-self-learning": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/PKUFlyingPig/cs-self-learning/master/LICENSE"
+    },
+    "NanmiCoder/MediaCrawler": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/NanmiCoder/MediaCrawler/main/LICENSE"
+    },
+    "microsoft/ai-agents-for-beginners": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/main/LICENSE"
+    },
+    "clash-verge-rev/clash-verge-rev": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/clash-verge-rev/clash-verge-rev/dev/LICENSE"
+    },
+    "react/create-react-app": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/react/create-react-app/main/LICENSE"
+    },
+    "pathwaycom/llm-app": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pathwaycom/llm-app/main/LICENSE"
+    },
+    "AppFlowy-IO/AppFlowy": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/main/LICENSE"
+    },
+    "enaqx/awesome-react": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "Semantic-Org/Semantic-UI": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Semantic-Org/Semantic-UI/master/LICENSE.md"
+    },
+    "earendil-works/pi": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/earendil-works/pi/main/LICENSE"
+    },
+    "TryGhost/Ghost": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/TryGhost/Ghost/main/LICENSE"
+    },
+    "tw93/Mole": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/tw93/Mole/main/LICENSE"
+    },
+    "vsouza/awesome-ios": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/vsouza/awesome-ios/master/LICENSE"
+    },
+    "hakimel/reveal.js": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/hakimel/reveal.js/master/LICENSE"
+    },
+    "airbnb/javascript": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/airbnb/javascript/master/LICENSE.md"
+    },
+    "soimort/you-get": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/soimort/you-get/develop/LICENSE.txt"
+    },
+    "modelcontextprotocol/servers": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/LICENSE"
+    },
+    "Asabeneh/30-Days-Of-Python": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "webpack/webpack": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/webpack/webpack/main/LICENSE"
+    },
+    "iptv-org/iptv": {
+      "key": "unlicense",
+      "download_url": "https://raw.githubusercontent.com/iptv-org/iptv/master/LICENSE"
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/LICENSE"
+    },
+    "dockur/windows": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/dockur/windows/master/license.md"
+    },
+    "animate-css/animate.css": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/animate-css/animate.css/main/LICENSE"
+    },
+    "jesseduffield/lazygit": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/jesseduffield/lazygit/master/LICENSE"
+    },
+    "swisskyrepo/PayloadsAllTheThings": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/LICENSE"
+    },
+    "swiftlang/swift": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/swiftlang/swift/main/LICENSE.txt"
+    },
+    "bytedance/deer-flow": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/bytedance/deer-flow/main/LICENSE"
+    },
+    "anomalyco/opencode": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/anomalyco/opencode/dev/LICENSE"
+    },
+    "jgthms/bulma": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/jgthms/bulma/main/LICENSE"
+    },
+    "BerriAI/litellm": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/BerriAI/litellm/litellm_internal_staging/LICENSE"
+    },
+    "wagoodman/dive": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/wagoodman/dive/main/LICENSE"
+    },
+    "datawhalechina/hello-agents": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/main/LICENSE.txt"
+    },
+    "FuelLabs/sway": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/FuelLabs/sway/master/LICENSE"
+    },
+    "usememos/memos": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/usememos/memos/main/LICENSE"
+    },
+    "ByteByteGoHq/system-design-101": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/ByteByteGoHq/system-design-101/main/LICENSE.md"
+    },
+    "tesseract-ocr/tesseract": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/main/LICENSE"
+    },
+    "traefik/traefik": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/traefik/traefik/master/LICENSE.md"
+    },
+    "chenglou/pretext": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/chenglou/pretext/main/LICENSE"
+    },
+    "MunGell/awesome-for-beginners": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "anthropics/skills": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "jesseduffield/lazydocker": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/jesseduffield/lazydocker/master/LICENSE"
+    },
+    "FiloSottile/mkcert": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/FiloSottile/mkcert/master/LICENSE"
+    },
+    "odysseus-dev/odysseus": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/odysseus-dev/odysseus/dev/LICENSE"
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/LICENSE.md"
+    },
+    "immich-app/immich": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/immich-app/immich/main/LICENSE"
+    },
+    "infiniflow/ragflow": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/infiniflow/ragflow/main/LICENSE"
+    },
+    "996icu/996.ICU": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/996icu/996.ICU/master/LICENSE"
+    },
+    "microsoft/terminal": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/terminal/main/LICENSE"
+    },
+    "sveltejs/svelte": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/sveltejs/svelte/main/LICENSE.md"
+    },
+    "trimstray/the-book-of-secret-knowledge": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/trimstray/the-book-of-secret-knowledge/master/LICENSE.md"
+    },
+    "google/material-design-icons": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/google/material-design-icons/master/LICENSE"
+    },
+    "d2l-ai/d2l-zh": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/LICENSE"
+    },
+    "expo/expo": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/expo/expo/main/LICENSE"
+    },
+    "anthropics/claude-code": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "sickcodes/Docker-OSX": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/sickcodes/Docker-OSX/master/LICENSE"
+    },
+    "commaai/openpilot": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/commaai/openpilot/master/LICENSE"
+    },
+    "fatedier/frp": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/fatedier/frp/dev/LICENSE"
+    },
+    "hwchase17/langchain": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/langchain-ai/langchain/master/LICENSE"
+    },
+    "lllyasviel/Fooocus": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/lllyasviel/Fooocus/main/LICENSE"
+    },
+    "daytonaio/daytona": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "agalwood/Motrix": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/agalwood/Motrix/main/LICENSE"
+    },
+    "florinpop17/app-ideas": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/florinpop17/app-ideas/master/LICENSE"
+    },
+    "sansan0/TrendRadar": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/sansan0/TrendRadar/master/LICENSE"
+    },
+    "h5bp/Front-end-Developer-Interview-Questions": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/h5bp/Front-end-Developer-Interview-Questions/main/LICENSE.md"
+    },
+    "mozilla/pdf.js": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/mozilla/pdf.js/master/LICENSE"
+    },
+    "yangshun/tech-interview-handbook": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/yangshun/tech-interview-handbook/main/LICENSE"
+    },
+    "romkatv/powerlevel10k": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/romkatv/powerlevel10k/master/LICENSE"
+    },
+    "tensorflow/models": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/tensorflow/models/master/LICENSE"
+    },
+    "pathwaycom/pathway": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/pathwaycom/pathway/main/LICENSE.txt"
+    },
+    "addyosmani/agent-skills": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/LICENSE"
+    },
+    "anthropics/claude-cookbooks": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/anthropics/claude-cookbooks/main/LICENSE"
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/main/LICENSE"
+    },
+    "ghostty-org/ghostty": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ghostty-org/ghostty/main/LICENSE"
+    },
+    "paperclipai/paperclip": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/paperclipai/paperclip/master/LICENSE"
+    },
+    "shadowsocks/shadowsocks-windows": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/shadowsocks/shadowsocks-windows/v4/LICENSE.txt"
+    },
+    "vuejs/awesome-vue": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/vuejs/awesome-vue/master/LICENSE"
+    },
+    "python/cpython": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/main/LICENSE"
+    },
+    "labmlai/annotated_deep_learning_paper_implementations": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/labmlai/annotated_deep_learning_paper_implementations/master/license"
+    },
+    "pbakaus/impeccable": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/LICENSE"
+    },
+    "sebastianbergmann/phpunit": {
+      "key": "bsd-3-clause",
+      "download_url": "https://raw.githubusercontent.com/sebastianbergmann/phpunit/main/LICENSE"
+    },
+    "microsoft/AI-For-Beginners": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/AI-For-Beginners/main/LICENSE"
+    },
+    "PaddlePaddle/PaddleOCR": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/LICENSE"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/LICENSE"
+    },
+    "ryanmcdermott/clean-code-javascript": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/LICENSE"
+    },
+    "angular/angular.js": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/angular/angular.js/master/LICENSE"
+    },
+    "tldr-pages/tldr": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/tldr-pages/tldr/main/LICENSE.md"
+    },
+    "astral-sh/uv": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/astral-sh/uv/main/LICENSE-APACHE"
+    },
+    "JuliusBrussee/caveman": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/main/LICENSE"
+    },
+    "Genymobile/scrcpy": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/Genymobile/scrcpy/master/LICENSE"
+    },
+    "typicode/json-server": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/typicode/json-server/main/LICENSE"
+    },
+    "binary-husky/gpt_academic": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/binary-husky/gpt_academic/master/LICENSE"
+    },
+    "ryanoasis/nerd-fonts": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/LICENSE"
+    },
+    "tw93/Pake": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/tw93/Pake/main/LICENSE"
+    },
+    "openinterpreter/openinterpreter": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/LICENSE"
+    },
+    "ocornut/imgui": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ocornut/imgui/master/LICENSE.txt"
+    },
+    "gsd-build/get-shit-done": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/gsd-build/get-shit-done/main/LICENSE"
+    },
+    "massgravel/Microsoft-Activation-Scripts": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/LICENSE"
+    },
+    "krahets/hello-algo": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/krahets/hello-algo/main/LICENSE"
+    },
+    "Chalarangelo/30-seconds-of-code": {
+      "key": "cc-by-4.0",
+      "download_url": "https://raw.githubusercontent.com/Chalarangelo/30-seconds-of-code/master/LICENSE"
+    },
+    "mvanhorn/last30days-skill": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/LICENSE"
+    },
+    "tonsky/FiraCode": {
+      "key": "ofl-1.1",
+      "download_url": "https://raw.githubusercontent.com/tonsky/FiraCode/master/LICENSE"
+    },
+    "ReactiveX/RxJava": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/ReactiveX/RxJava/4.x/LICENSE"
+    },
+    "getify/You-Dont-Know-JS": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/2nd-ed/LICENSE.txt"
+    },
+    "pi-hole/pi-hole": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/master/LICENSE"
+    },
+    "golang-standards/project-layout": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/golang-standards/project-layout/master/LICENSE.md"
+    },
+    "tmux/tmux": {
+      "key": "isc",
+      "download_url": "https://raw.githubusercontent.com/tmux/tmux/master/COPYING"
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/LICENSE"
+    },
+    "2dust/v2rayNG": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/2dust/v2rayNG/master/LICENSE"
+    },
+    "storybookjs/storybook": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/storybookjs/storybook/next/LICENSE"
+    },
+    "brillout/awesome-react-components": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/brillout/awesome-react-components/master/license"
+    },
+    "meta-llama/llama": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/meta-llama/llama/main/LICENSE"
+    },
+    "code-yeongyu/oh-my-openagent": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/LICENSE.md"
+    },
+    "ollama/ollama": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ollama/ollama/main/LICENSE"
+    },
+    "labuladong/fucking-algorithm": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "langgenius/dify": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/langgenius/dify/main/LICENSE"
+    },
+    "aaif-goose/goose": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/aaif-goose/goose/main/LICENSE"
+    },
+    "github/gitignore": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/github/gitignore/main/LICENSE"
+    },
+    "shareAI-lab/learn-claude-code": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/main/LICENSE"
+    },
+    "thedaviddias/Front-End-Checklist": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "WerWolv/ImHex": {
+      "key": "gpl-2.0",
+      "download_url": "https://raw.githubusercontent.com/WerWolv/ImHex/master/LICENSE"
+    },
+    "danielmiessler/SecLists": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/LICENSE"
+    },
+    "localstack/localstack": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/localstack/localstack/main/LICENSE.txt"
+    },
+    "rust-unofficial/awesome-rust": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/rust-unofficial/awesome-rust/main/LICENSE.txt"
+    },
+    "OpenHands/OpenHands": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/LICENSE"
+    },
+    "Egonex-AI/Understand-Anything": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/LICENSE"
+    },
+    "deepseek-ai/DeepSeek-R1": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/LICENSE"
+    },
+    "caddyserver/caddy": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/caddyserver/caddy/master/LICENSE"
+    },
+    "ClickHouse/ClickHouse": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/LICENSE"
+    },
+    "git/git": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/git/git/master/COPYING"
+    },
+    "odoo/odoo": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/odoo/odoo/19.0/LICENSE"
+    },
+    "microsoft/playwright": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/microsoft/playwright/main/LICENSE"
+    },
+    "jgraph/drawio-desktop": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/jgraph/drawio-desktop/dev/LICENSE"
+    },
+    "moment/moment": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/moment/moment/develop/LICENSE"
+    },
+    "bmad-code-org/BMAD-METHOD": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/main/LICENSE"
+    },
+    "excalidraw/excalidraw": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/excalidraw/excalidraw/master/LICENSE"
+    },
+    "PanJiaChen/vue-element-admin": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/PanJiaChen/vue-element-admin/master/LICENSE"
+    },
+    "lencx/ChatGPT": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "nomic-ai/gpt4all": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/LICENSE.txt"
+    },
+    "pocketbase/pocketbase": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/pocketbase/pocketbase/master/LICENSE.md"
+    },
+    "avelino/awesome-go": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/avelino/awesome-go/main/LICENSE"
+    },
+    "laurent22/joplin": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/laurent22/joplin/dev/LICENSE"
+    },
+    "lydiahallie/javascript-questions": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/LICENSE"
+    },
+    "xtekky/gpt4free": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/xtekky/gpt4free/main/LICENSE"
+    },
+    "poteto/hiring-without-whiteboards": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/poteto/hiring-without-whiteboards/main/LICENSE.md"
+    },
+    "AlistGo/alist": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/AlistGo/alist/main/LICENSE"
+    },
+    "ChrisTitusTech/winutil": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/ChrisTitusTech/winutil/main/LICENSE"
+    },
+    "gorhill/uBlock": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/gorhill/uBlock/master/LICENSE.txt"
+    },
+    "FoundationAgents/MetaGPT": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/LICENSE"
+    },
+    "NARKOZ/hacker-scripts": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "openai/openai-cookbook": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/openai/openai-cookbook/main/LICENSE"
+    },
+    "Stirling-Tools/Stirling-PDF": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/LICENSE"
+    },
+    "vuejs/core": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/vuejs/core/main/LICENSE"
+    },
+    "mastodon/mastodon": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/mastodon/mastodon/main/LICENSE"
+    },
+    "garrytan/gstack": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/garrytan/gstack/main/LICENSE"
+    },
+    "VoltAgent/awesome-design-md": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/VoltAgent/awesome-design-md/main/LICENSE"
+    },
+    "Eugeny/tabby": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Eugeny/tabby/master/LICENSE"
+    },
+    "jaywcjlove/awesome-mac": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/jaywcjlove/awesome-mac/master/LICENSE"
+    },
+    "react/react-native": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/react/react-native/main/LICENSE"
+    },
+    "affaan-m/ECC": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/affaan-m/ECC/main/LICENSE"
+    },
+    "Solido/awesome-flutter": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "nilbuild/design-patterns-for-humans": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "ripienaar/free-for-dev": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "reduxjs/redux": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/reduxjs/redux/master/LICENSE.md"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "key": "cc0-1.0",
+      "download_url": "https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/main/LICENSE"
+    },
+    "neovim/neovim": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/neovim/neovim/master/LICENSE.txt"
+    },
+    "topjohnwu/Magisk": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/LICENSE"
+    },
+    "nuxt/nuxt": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nuxt/nuxt/main/LICENSE"
+    },
+    "upstash/context7": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/upstash/context7/master/LICENSE"
+    },
+    "Fission-AI/OpenSpec": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/main/LICENSE"
+    },
+    "docling-project/docling": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE"
+    },
+    "iamkun/dayjs": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/iamkun/dayjs/dev/LICENSE"
+    },
+    "hiyouga/LlamaFactory": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/LICENSE"
+    },
+    "TauricResearch/TradingAgents": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/main/LICENSE"
+    },
+    "microsoft/markitdown": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/LICENSE"
+    },
+    "n8n-io/n8n": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/LICENSE.md"
+    },
+    "unslothai/unsloth": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/unslothai/unsloth/main/LICENSE"
+    },
+    "obra/superpowers": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/obra/superpowers/main/LICENSE"
+    },
+    "openclaw/openclaw": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/openclaw/openclaw/main/LICENSE"
+    },
+    "msitarzewski/agency-agents": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/LICENSE"
+    },
+    "TapXWorld/ChinaTextbook": {
+      "key": "no-license-file",
+      "download_url": null
+    },
+    "ultralytics/ultralytics": {
+      "key": "agpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/main/LICENSE"
+    },
+    "opendatalab/MinerU": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/opendatalab/MinerU/master/LICENSE.md"
+    },
+    "justjavac/wechat-miniapp-radar": {
+      "key": "gpl-3.0",
+      "download_url": "https://raw.githubusercontent.com/justjavac/wechat-miniapp-radar/main/LICENSE"
+    },
+    "nektos/act": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/nektos/act/master/LICENSE"
+    },
+    "apache/superset": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apache/superset/master/LICENSE.txt"
+    },
+    "remix-run/react-router": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/remix-run/react-router/main/LICENSE.md"
+    },
+    "cypress-io/cypress": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/cypress-io/cypress/develop/LICENSE"
+    },
+    "xai-org/grok-1": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/xai-org/grok-1/main/LICENSE.txt"
+    },
+    "AntonOsika/gpt-engineer": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/LICENSE"
+    },
+    "apple/container": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/apple/container/main/LICENSE"
+    },
+    "bregman-arie/devops-exercises": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/LICENSE"
+    },
+    "anuraghazra/github-readme-stats": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/LICENSE"
+    },
+    "OpenCut-app/OpenCut": {
+      "key": "mit",
+      "download_url": "https://raw.githubusercontent.com/OpenCut-app/OpenCut/main/LICENSE"
+    },
+    "goldbergyoni/nodebestpractices": {
+      "key": "cc-by-sa-4.0",
+      "download_url": "https://raw.githubusercontent.com/goldbergyoni/nodebestpractices/master/LICENSE"
+    },
+    "OpenBB-finance/OpenBB": {
+      "key": "other",
+      "download_url": "https://raw.githubusercontent.com/OpenBB-finance/OpenBB/develop/LICENSE"
+    },
+    "vllm-project/vllm": {
+      "key": "apache-2.0",
+      "download_url": "https://raw.githubusercontent.com/vllm-project/vllm/main/LICENSE"
+    }
+  }
+}
